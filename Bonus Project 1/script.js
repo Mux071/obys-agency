@@ -32,7 +32,7 @@ function loadinganimation() {
     tl.to("#loader", {
         opacity: 0,
         duration: 0.2,
-        delay: 4,
+        delay: 0,
     });
 
     tl.from("#page1", {
@@ -50,7 +50,7 @@ function loadinganimation() {
         opacity:0
     })
     tl.from("#hero1 h1 ,#hero2 h1 ,#hero3 h2 ,#hero4 h1",{
-        y:120,
+        y:140,
         stagger:0.2
     })
 }
