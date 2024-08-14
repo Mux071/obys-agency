@@ -79,7 +79,7 @@ body{
     animation-iteration-count: infinite;
     
 }
-@keyframes loaderanime {
+@keyframes anime {
     0%{
         font-family: "plain Light";
         -webkit-text-stroke: 1px #fff;
@@ -144,10 +144,10 @@ body{
     margin-left: 27%;
     font-family: "plain light";
     height: fit-content;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     display: flex;
     align-items: center;
-    /* overflow-x: visible; */
+    overflow-x: visible;
     
 }
 
@@ -164,6 +164,7 @@ body{
     line-height: 7.2vw;
     position: relative;
 }
+
 #hero1 h1::before{
     content: "01";
     position: absolute;
